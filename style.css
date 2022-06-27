@@ -45,6 +45,7 @@
         flex-direction: column;
 
         background-color: #E5E7EB;
+        padding: 100px;
     }
         .quote {
             display: flex;
@@ -57,16 +58,19 @@
         }
         .quote-author {
             display: flex;
+            align-self: flex-end;
 
             font-weight: bold;
         }
     .footer {
         display: flex;
+        justify-content: space-between;
 
         background-color: #3882F6;
         color: white;
-        padding: 20px;
-        margin: 40px;
+        padding: 50px;
+        margin: 80px 120px;
+        border-radius: 7px;
     }
         .footer-container1 {
             display: flex;
@@ -79,4 +83,14 @@
             }
         .footer-container2 {
             display: flex;
+        }
+
+        .footer-button {
+            border-color: white;
+            color: white;
+            background-color: #3882F6;
+            border-radius: 7px;
+            font-weight: bold;
+            padding-left: 15px;
+            padding-right: 15px;
         }
